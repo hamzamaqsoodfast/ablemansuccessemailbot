@@ -169,7 +169,7 @@ app.post('/create-cv', async (req, res) => {
 
         const mailOptions = {
             from: '"Ableman Success Info Team" <info@ablemansuccess.co>',
-            to: 'l217745@lhr.nu.edu.pk',
+            to: 'Jana@ablemansuccess.co',
             subject: `Your CV Submission: ${name}'s Document is Ready`,
             html: `
             <!DOCTYPE html>
