@@ -169,7 +169,7 @@ app.post('/create-cv', async (req, res) => {
 
         const mailOptions = {
             from: '"Ableman Success Info Team" <info@ablemansuccess.co>',
-            to: 'Jana@ablemansuccess.co',
+            to: 'roland@ableman.co',
             subject: `Your CV Submission: ${name}'s Document is Ready`,
             html: `
             <!DOCTYPE html>
@@ -236,7 +236,7 @@ app.post('/create-cv', async (req, res) => {
                     
                     <!-- Body Section -->
                     <div class="body">
-                        <p>Hey Jana,</p>
+                        <p>Hey Roland,</p>
                         <p>We are pleased to share the CV for <span class="highlight">${name}</span>.</p>
                         <p>This document was prepared and generated on <span class="highlight">${currentDateTime}</span>.</p>
                         <p>Should you have any questions, feel free to get in touch with our team.</p>
